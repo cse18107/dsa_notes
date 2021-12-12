@@ -1,12 +1,17 @@
-.home-body{
+/*================== herosection========================== */
+
+.home-body {
     width: 100%;
-    height: 800px;
+    margin-top: 50px;
+    /* height: 800px; */
     /* background-color: tomato; */
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.hero-section{
+
+.hero-section {
     width: 80%;
     height: 90%;
     /* background-color: rgba(63, 63, 63, 0.096); */
@@ -16,56 +21,63 @@
 }
 
 /*=================== left section  ==================*/
-.left-hero-section{
+.left-hero-section {
     width: 50%;
     height: 100%;
     /* background-color: yellow; */
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
-.hero-section-icon-logo{
+
+.hero-section-icon-logo {
     width: 70%;
     height: 65%;
     font-family: 'Righteous', cursive;
     color: #D98C00;
 }
-.hero-section-icon-logo h1{
+
+.hero-section-icon-logo .web-name {
     font-size: 5.4vw;
 }
-.hero-section-icon-logo p{
+
+.hero-section-icon-logo .web-desc {
     font-size: 1.7vw;
     color: #212121;
     margin-top: 5px;
 }
-.dsa{
+
+.dsa {
     color: #D98C00;
     margin-right: 30px;
     border-bottom: 10px solid #074642;
 }
-.notes{
-    color:#074642;
+
+.notes {
+    color: #074642;
     border-bottom: 10px solid #D98C00;
 
 }
+
 /*=================== right section  ==================*/
 
-.right-hero-section{
+.right-hero-section {
     width: 50%;
     height: 100%;
     /* background-color: yellowgreen; */
     display: flex;
     align-items: center;
-    justify-content:center;
+    justify-content: center;
 }
-.img{
+
+.img {
     width: 70%;
-    
+
 }
 
 /*=================== responsiveness ==================*/
-@media only screen and (max-width:1117px){
-    .hero-section{
+@media only screen and (max-width:1117px) {
+    .hero-section {
         height: 70%;
         flex-direction: column;
         justify-content: center;
@@ -73,19 +85,20 @@
     }
 
 
-/*=================== left section  ==================*/
-    .left-hero-section{
+    /*=================== left section  ==================*/
+    .left-hero-section {
         width: 100%;
     }
 
-    .hero-section-icon-logo{
-        width:90%;
+    .hero-section-icon-logo {
+        width: 90%;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-    .hero-section-icon-logo .logo-para{
+
+    .hero-section-icon-logo .logo-para {
         width: 70%;
         display: flex;
         justify-content: center;
@@ -93,11 +106,80 @@
     }
 
     /*=================== right section  ==================*/
-    .right-hero-section{
+    .right-hero-section {
         width: 100%;
     }
-    .img{
-        width:40%;
+
+    .img {
+        width: 40%;
     }
 
 }
+
+
+
+/*================== Topic section ========================== */
+.topic-body {
+    margin-top: 120px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.topic-body-container {
+    width: 80%;
+}
+
+
+
+.topic-body-content {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    display: grid;
+    /* height: 900px; */
+    grid-template-columns: 23% 23% 23% 23%;
+    grid-template-rows: 23% 23% 23% 23%;
+    grid-gap: 2.67%;
+    /* row-gap: 2% ; */
+}
+
+.topic-content-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 2px 3px 11px -8px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 2px 3px 11px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 3px 11px -8px rgba(0,0,0,0.75);
+}
+.topic-content-item-content{
+    width: 80%;
+}
+.topic-content-item:hover{
+    border: 2px solid #074642;
+}
+
+@media only screen and (max-width:956px){
+    .topic-body-content{
+        display: grid;
+        grid-template-columns: 30% 30% 30%;
+        
+    }
+}
+@media only screen and (max-width:730px){
+    .topic-body-content{
+        display: grid;
+        grid-template-columns: 48% 48%;
+        
+    }
+}
+@media only screen and (max-width:460px){
+    .topic-body-content{
+        display: grid;
+        grid-template-columns: 98%;
+        
+    }
+}
+
+

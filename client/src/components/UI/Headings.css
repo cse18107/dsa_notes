@@ -1,0 +1,15 @@
+.topic-heading {
+    border: 6px solid #074642;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.3rem;
+    background-color: #ffa8069d;
+    justify-content: center;
+    color: #074642;
+}
+
+.topic-heading:hover {
+    background-color: #ffa806;
+}

@@ -6,10 +6,10 @@ function HeroSection() {
             <div className="left-hero-section">
                 <div className="hero-section-icon-logo">
                     <div className="logo-name">
-                        <h1><span className="dsa">DSA</span><span className="notes">NOTES</span> </h1>
+                        <h1 className='web-name'><span className="dsa">DSA</span><span className="notes">NOTES</span> </h1>
                     </div>
                     <div className="logo-para">
-                        <p>practice data structure and algorithm, create your own set of question, save your own code and solutions and master DSA</p>
+                        <p className='web-desc'>practice data structure and algorithm, create your own set of question, save your own code and solutions and master DSA</p>
                     </div>
                 </div>
             </div>

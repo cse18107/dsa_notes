@@ -1,11 +1,10 @@
 import './Home.css';
 import HeroSection from './HeroSection';
+import TopicSection from './TopicSection';
 const Home = () =>{
     return <div className="home-body">
         <HeroSection/>
-        <div className='topic-body'>
-            
+        <TopicSection/>
         </div>
-    </div>
 }
 export default Home;
