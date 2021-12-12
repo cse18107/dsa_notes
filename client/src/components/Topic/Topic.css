@@ -1,0 +1,95 @@
+.topics-headings-body{
+    width:100%;
+    margin-top: 50px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.topics-headings{
+    width: 80%;
+}
+.topics-body{
+    margin-top: 50px;
+    width: 100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    /* background-color: tomato; */
+}
+.topics-body-container{
+    width:80%;
+
+}
+.topics-body-content{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(8,10.75%);
+    grid-template-rows: repeat(2,40%);
+    column-gap: 2%;
+    row-gap: 19%;
+}
+.topics{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+@media only screen and (max-width:1480px){
+    .topics-body-content{
+       height: 300px;
+        display: grid;
+        grid-template-columns: repeat(7,12.55%);
+        grid-template-rows: repeat(3,40%);
+        column-gap: 2%;
+        row-gap: 19%;
+    }
+}
+@media only screen and (max-width:1258px){
+    .topics-body-content{
+        height: 250px;
+        display: grid;
+        grid-template-columns: repeat(6,15.05%);
+        grid-template-rows: repeat(3,40%);
+        column-gap: 2%;
+        row-gap: 19%;
+    }
+}
+@media only screen and (max-width:1038px){
+    .topics-body-content{
+       
+        display: grid;
+        grid-template-columns: repeat(5,18.35%);
+        grid-template-rows: repeat(4,40%);
+        column-gap: 2%;
+        row-gap: 19%;
+    }
+}
+@media only screen and (max-width:836px){
+    .topics-body-content{
+       
+        display: grid;
+        grid-template-columns: repeat(4,23.55%);
+        grid-template-rows: repeat(4,40%);
+        column-gap: 2%;
+        row-gap: 19%;
+    }
+}
+@media only screen and (max-width:652px){
+    .topics-body-content{
+       
+        display: grid;
+        grid-template-columns: repeat(3,31.85%);
+        grid-template-rows: repeat(5,40%);
+        column-gap: 2%;
+        row-gap: 19%;
+    }
+}
+@media only screen and (max-width:488px){
+    .topics-body-content{
+       
+        display: grid;
+        grid-template-columns: repeat(2,48.85%);
+        grid-template-rows: repeat(5,40%);
+        column-gap: 2%;
+        row-gap: 19%;
+    }
+}

@@ -1,0 +1,12 @@
+.topics{
+    border: 3px solid #49FF00;
+    border-radius: 10px;
+    background-color:#fcff68;
+    color: #105652;
+    font-size: 1.1rem;
+    padding: 10px;
+}
+.topics:hover{
+    background-color:#fbff00;
+    cursor: pointer;
+}
